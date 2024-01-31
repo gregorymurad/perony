@@ -72,8 +72,11 @@ with st.form("Genes Selection",clear_on_submit=True):
                 y=0.95,
                 bordercolor='black',
                 borderwidth=1,
-                bgcolor='lightgray',
-                opacity=0.9
+                bgcolor='#dddddd',
+                opacity=0.9,
+                font=dict(
+                    color='#141414'
+                )
             )
         )
 
