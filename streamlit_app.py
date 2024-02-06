@@ -115,7 +115,7 @@ with tab2:
                         correlation, pvalue = spearmanr(merged_data['Read Count_x'], merged_data['Read Count_y'])
                         if (not math.isnan(correlation)) and (not math.isnan(pvalue)):
                             if (correlation >= correlation_threshold) and pvalue <= pvalue_threshold:
-                                key_name = f"Eln and {i}"
+                                key_name = f"{gName1} and {i}"
                                 TOPcorrelations[key_name] = (correlation,pvalue)
                 # st.write(TOPcorrelations)
 
