@@ -127,4 +127,5 @@ with tab2:
                 df_top.drop(columns=['Values'], inplace=True)
                 st.dataframe(df_top)
                 st.balloons()
-                df_top.to_csv(f"TOP_Correlations_with_{gName1}.csv")
+                st.success("✅ Processing Complete! All correlations have been successfully identified. Thank you for your patience. 🎉")
+                # df_top.to_csv(f"TOP_Correlations_with_{gName1}.csv")
